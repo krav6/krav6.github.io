@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="public/css/styles.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/solid.js" integrity="sha384-P4tSluxIpPk9wNy8WSD8wJDvA8YZIkC6AQ+BfAFLXcUZIPQGu4Ifv4Kqq+i2XzrM"
         crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/brands.js" integrity="sha384-qJKAzpOXfvmSjzbmsEtlYziSrpVjh5ROPNqb8UZ60myWy7rjTObnarseSKotmJIx"
@@ -36,6 +37,9 @@
                     <a id="services-link" class="nav-link nav__link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
+                    <a id="portfolio-link" class="nav-link nav__link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
                     <a id="contact-link" class="nav-link nav__link" href="#contact">Contact</a>
                 </li>
             </ul>
@@ -52,9 +56,6 @@
                 <div class="col-md-8">
                     <div class="effect__fade-in effect__slide-up">
                         <h1>Web-based solutions, tailored to you</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
             </div>
@@ -65,34 +66,82 @@
             <h2 class="section__title">SERVICES</h2>
             <div class="row justify-content-center">
                 <div class="col-md-3">
-                    <div id="back-end-icon" class="effect__appear effect__appear--left">
+                    <div id="back-end-icon" class="effect__appear">
                         <i class="fas fa-server fa-5x section__icon" data-fa-transform="shrink-4"></i>
                         <p class="section__text">Back-end development</p>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div id="front-end-icon" class="effect__appear effect__appear--center">
+                    <div id="front-end-icon" class="effect__appear">
                         <i class="fas fa-desktop fa-5x section__icon" data-fa-transform="shrink-4"></i>
                         <p class="section__text">Front-end development</p>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div id="design-icon" class="effect__appear effect__appear--right">
+                    <div id="design-icon" class="effect__appear">
                         <i class="fas fa-paint-brush fa-5x section__icon" data-fa-transform="shrink-4"></i>
                         <p class="section__text">Web design</p>
                     </div>
                 </div>
             </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <p class="effect__appear" id="services-description">Price is set project by project, taking into consideration the complexity and difficulty. Please
+                        <a class="section__link--green section__link--underline" href="#contact">contact</a> for additional information about services and prices, or regarding any other related
+                        questions.
+                    </p>
+                </div>
+            </div>
         </div>
         </div>
     </section>
-    <section id="contact" class="section section--green">
+    <section id="portfolio" class="section section--green">
+        <div class="container">
+            <h2 class="section__title">PORTFOLIO</h2>
+            <div class="row justify-content-center align-items-center mb-5">
+                <div class="col-md-4">
+                    <div class="effect__appear" id="salon-description">
+                        <h3 class="section__portfolio__title">
+                            <a href="portfolio/salon/index.html">Hair salon</a>
+                        </h3>
+                        <p>An imaginary hair salon with a cute pink style. The site was created with HTML, CSS3 for the layout
+                            and design, and Javascript for scrolling effects and customized Google maps.
+                            <br> Please click
+                            <a class="section__link--white section__link--underline" href="portfolio/salon/index.html">here</a> if you would like to take a look at it yourself.</p>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <a class="effect__appear" id="salon-image" href="portfolio/salon/index.html">
+                        <img class="section__image" src="img/macbook_iphone_hair.png">
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4 order-md-2">
+                    <div class="effect__appear" id="dentist-description">
+                        <h3 class="section__portfolio__title">
+                            <a href="portfolio/dentist/index.html">Dental office</a>
+                        </h3>
+                        <p>A sleek design for an imaginary dental office, created with HTML and CSS3.
+                            <br> Please click
+                            <a class="section__link--white section__link--underline" href="portfolio/dentist/index.html">here</a> if you would like to take a look at it yourself.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <a class="effect__appear" id="dentist-image" href="portfolio/dentist/index.html">
+                        <img class="section__image" src="img/macbook_iphone_dentist.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section section--white">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-3  align-self-center">
+                <div class="col-md-3">
                     <h2 class="section__title">CONTACT</h2>
-                    <p>
-                        <a href="mailto:contact@saboyaweb.com" class="section__link--white">
+                    <p class="text-center">
+                        <a href="mailto:contact@saboyaweb.com" class="section__link--green">
                             <i class="fas fa-envelope"></i> contact@saboyaweb.com</a>
                     </p>
                 </div>
@@ -107,8 +156,8 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="js/noframework.waypoints.min.js"></script>
-    <script src="js/general.js"></script>
+    <script src="public/js/noframework.waypoints.min.js"></script>
+    <script src="public/js/general.js"></script>
 </body>
 
 </html>
