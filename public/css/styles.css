@@ -196,6 +196,16 @@ nav {
   background-color: rgb(161, 79, 43);
 }
 
+.section__button--teal {
+  pointer-events: none;
+  background-color: #50b3ce;
+  color:white;
+}
+
+.section__button--teal:hover {
+  background-color: #4ba4bd;
+}
+
 .dropdown-menu {
   border: 0;
   background-color: rgba(120,176,123, 0.75);
